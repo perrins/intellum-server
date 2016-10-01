@@ -1,4 +1,4 @@
-# Store Catalog Mobile Backend
+# iNtellum Server
 This folder contains instructions for how to run **API Connect** and deploy the template to Bluemix.
 
 ### Before you begin
@@ -42,7 +42,7 @@ To publish your local application to Bluemix, use the command:
 
 This will use the `manifest.yml` file that was generated when we provisioned the application to upload the project to Bluemix.
 
-### Using the Store Catalog Backend and API
+### Using the iNtellum Server Backend and API
 You will see a Store Catalog Backend when you visit the application route. A landing page displays information about this template.
 
 <img src="readme/landingpage.png"/>

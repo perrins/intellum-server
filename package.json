@@ -1,5 +1,5 @@
 {
-  "name": "iNtellum Server",
+  "name": "intellum-server",
   "version": "1.0.0",
   "description": "iNtellum Server for Device Management Control",
   "main": "server/server.js",

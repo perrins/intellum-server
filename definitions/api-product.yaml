@@ -1,15 +1,17 @@
 product: 1.0.0
 info:
-  name: store-catalog-mobile-backend
-  title: Store Catalog Mobile Backend
+  name: intellum-server
+  title: iNtellum Server
   version: 1.0.0
   license:
-    name: 'Apache License, Version 2.0'
-    url: 'http://www.apache.org/licenses/LICENSE-2.0'
+    name: iNtellum Ltd
+    url: ''
   contact:
-    name: IBM Bluemix Mobile
-    url: 'http://www.ibm.com/cloud-computing/bluemix/'
-  description: "A Bluemix template application showcasing\_API Connect, Cloudant NoSQL DB, and Object Storage integration."
+    name: Matthew Perrins
+    url: ''
+    email: matthewperrins@gmail.com
+  description: iNtellum Server User Interface and API Management
+  termsOfService: Licensed under property of iNtellum
 apis:
   api:
     $ref: api.yaml
