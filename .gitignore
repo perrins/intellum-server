@@ -1,6 +1,5 @@
 # Project directories and files
-public
-node_modules
+node_modules/
 
 # SENSITIVE STUFF :)
 .npmrc
