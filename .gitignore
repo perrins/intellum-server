@@ -1,1 +1,42 @@
+# Project directories and files
+public
 node_modules
+
+# SENSITIVE STUFF :)
+.npmrc
+
+# Editor/IDE/OS
+.idea/
+.DS_Store
+
+# Logs
+log/
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+.rebooted
+
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
