@@ -1,0 +1,15 @@
+---
+  path: "."
+  description: "iNtellum Server - UX + API"
+  memory: "512M"
+  instances: 2
+  domain: "mybluemix.net"
+  name: "intellum"
+  host: "intellum"
+  disk_quota: "1024M"
+  services: 
+    - "intellum-data"
+    - "intellum-storage"
+    - "intellum-authentication"
+    - "intellum-push"
+    - "intellum-analytics"
