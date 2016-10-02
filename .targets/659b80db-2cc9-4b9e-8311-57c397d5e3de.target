@@ -1,0 +1,91 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/57f10a8b0cf2f521a57bb702'
+  id: 57f10a8b0cf2f521a57bb702
+  name: mjperrinusibmcom-intellum
+  status: active
+  orgType: apiProvider
+  displayName: mjperrin@us.ibm.com (intellum)
+  externalOrgId: e3e5f828-b474-45e7-8a01-914ef7f5cc76
+  externalInviteOverride: 'https://new-console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: e3e5f828-b474-45e7-8a01-914ef7f5cc76
+  externalNativeOrgId: 239954fd-9633-467d-953f-c254b58c7d15
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+catalog:
+  id: 57f10aab0cf2abf54fe40b50
+  shortName: intellum
+  name: Intellum
+  sandbox: true
+app:
+  metadata:
+    guid: 22c1aa0b-de3f-487d-a38a-ddee7c2f871c
+  entity:
+    guid: 22c1aa0b-de3f-487d-a38a-ddee7c2f871c
+    name: intellum
+    routes:
+      - guid: f6a83087-084e-470a-9fa2-caa7d863e731
+        host: apiconnect-22c1aa0b-de3f-487d-a38a-ddee7c2f871c
+        port: null
+        path: ''
+        domain:
+          guid: 8db2691f-ffc5-4e5c-a648-419964115044
+          name: mjperrinusibmcom-intellum.apic.mybluemix.net
+    running_instances: 0
+    services: []
+    available_domains:
+      - guid: 8db2691f-ffc5-4e5c-a648-419964115044
+        name: mjperrinusibmcom-intellum.apic.mybluemix.net
+        owning_organization_guid: 239954fd-9633-467d-953f-c254b58c7d15
+      - guid: f4b90d7e-2cd3-4d30-b200-f28bbaf6be20
+        name: mybluemix.net
+        router_group_guid: null
+        router_group_type: null
+    production: false
+    space_guid: e3e5f828-b474-45e7-8a01-914ef7f5cc76
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: null
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STOPPED
+    version: 6ee01991-aecd-4063-9aa7-b00f6a2dceaf
+    command: null
+    console: false
+    debug: null
+    staging_task_id: null
+    package_state: PENDING
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: false
+    docker_image: null
+    package_updated_at: null
+    detected_start_command: ''
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+id: 659b80db-2cc9-4b9e-8311-57c397d5e3de
+target: 1.0.0
+versionOptions:
+  inplaceUpdate: true
+publishApp: true
+workspaceDir:
+  name: iNtellum Server
+  path: /Users/mjperrins/projects/intellum/intellum-server
+  id: 4
+  displayName: iNtellum Server
+  type: project
+  projectType: loopback
+publishProducts: true
+specificProducts: true

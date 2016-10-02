@@ -1604,7 +1604,22 @@ x-ibm-configuration:
     sb:
       properties:
         runtime-url: 'http://localhost:4001'
+    intellum:
+      properties:
+        runtime-url: >-
+          https://apiconnect-22c1aa0b-de3f-487d-a38a-ddee7c2f871c.mjperrinusibmcom-intellum.apic.mybluemix.net
+        invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:
       - invoke:
           target-url: $(runtime-url)$(request.path)$(request.search)
+          tls-profile: $(invoke-tls-profile)
+  properties:
+    runtime-url:
+      value: ''
+      description: ''
+      encoded: false
+    invoke-tls-profile:
+      value: ''
+      description: ''
+      encoded: false

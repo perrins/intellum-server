@@ -3,18 +3,12 @@ info:
   name: intellum-server
   title: iNtellum Server
   version: 1.0.0
-  license:
-    name: iNtellum Ltd
-    url: ''
   contact:
     name: Matthew Perrins
-    url: ''
     email: matthewperrins@gmail.com
-  description: iNtellum Server User Interface and API Management
-  termsOfService: Licensed under property of iNtellum
-apis:
-  api:
-    $ref: api.yaml
+  license:
+    name: iNtellum Ltd
+  termsOfService: iNtellum
 visibility:
   view:
     type: public
@@ -28,3 +22,6 @@ plans:
     rate-limit:
       value: 100/hour
       hard-limit: false
+apis:
+  intellum-server:
+    $ref: intellum-server.yaml
