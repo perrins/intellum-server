@@ -1,6 +1,6 @@
 ---
   path: "."
-  description: "iNtellum Server - UX + API"
+  description: "iNtellum Server"
   memory: "512M"
   instances: 2
   domain: "mybluemix.net"

@@ -1,0 +1,35 @@
+{
+  "name": "Users",
+  "plural": "users",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": false,
+      "description": "User Name"
+    },
+    "password": {
+      "type": "string",
+      "required": false,
+      "description": "Password"
+    },
+    "type": {
+      "type": "string",
+      "required": false,
+      "description": "Account type"
+    },
+    "account": {
+      "type": "string",
+      "required": false,
+      "description": "Account management"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

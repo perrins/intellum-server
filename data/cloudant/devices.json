@@ -1,7 +1,7 @@
 {
 	"docs": [
 		{
-			"id" : "LDRV-CSB-PC2-0350",
+			"did" : "1234",
 			"name": "LDRV-CSB-PC2-0350",
 			"model" : "LDRV-CSB-PC2-0350",
 			"description":"Universal Control Switch for LDRV switches",
@@ -13,7 +13,7 @@
 			"loopback__model__name":"devices"
 		},
 		{
-			"id" : "LDRV-CSB-PC2-0360",
+			"did" : "LDRV-CSB-PC2-0360",
 			"name": "LDRV-CSB-PC2-0360",
 			"model" : "LDRV-CSB-PC2-0360",
 			"description":"Universal Control Switch for LDRV switches",
@@ -25,7 +25,7 @@
 			"loopback__model__name":"devices"
 		},
 		{
-			"id" : "LDRV-CSB-PC2-0370",
+			"did" : "LDRV-CSB-PC2-0370",
 			"name": "LDRV-CSB-PC2-0370",
 			"model" : "LDRV-CSB-PC2-0370",
 			"description":"Universal Control Switch for LDRV switches",
@@ -37,7 +37,7 @@
 			"loopback__model__name":"devices"
 		},
 		{
-			"id" : "LDRV-CSB-PC2-0380",
+			"did" : "LDRV-CSB-PC2-0380",
 			"name": "LDRV-CSB-PC2-0380",
 			"model" : "LDRV-CSB-PC2-0380",
 			"description":"Universal Control Switch for LDRV switches",

@@ -1,0 +1,51 @@
+{
+  "name": "Places",
+  "plural": "places",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "address": {
+      "type": "object",
+      "required": false
+    },
+    "comment": {
+      "type": "number",
+      "required": false
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "lat": {
+      "type": "number",
+      "required": false
+    },
+    "long": {
+      "type": "number",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "pid": {
+      "type": "string",
+      "required": false
+    },
+    "share": {
+      "type": "boolean",
+      "required": false
+    },
+    "type": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

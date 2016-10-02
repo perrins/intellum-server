@@ -1,0 +1,55 @@
+{
+  "name": "Devices",
+  "plural": "devices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": false,
+      "description": "Device Name"
+    },
+    "gid": {
+      "type": "string",
+      "required": false,
+      "description": "Group ID"
+    },
+    "did": {
+      "type": "string",
+      "required": false,
+      "description": "Device Product ID"
+    },
+    "type": {
+      "type": "string",
+      "required": false,
+      "description": "Type"
+    },
+    "dhigh": {
+      "type": "number",
+      "required": false,
+      "description": "Dimmer High"
+    },
+    "dlow": {
+      "type": "number",
+      "required": false,
+      "description": "Dimmer Low"
+    },
+    "mode": {
+      "type": "number",
+      "required": false,
+      "description": "Mode"
+    },
+    "colour": {
+      "type": "number",
+      "required": false,
+      "description": "Colour"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -13,8 +13,21 @@
       "./mixins"
     ]
   },
-  "Product": {
-    "dataSource": "Cloudant",
+  "Users": {
+    "dataSource": "Users",
+    "public": true
+  },
+  "Places": {
+    "dataSource": "Intellum",
+    "public": true,
+    "strict": false
+  },
+  "Groups": {
+    "dataSource": "Intellum",
+    "public": true
+  },
+  "Devices": {
+    "dataSource": "Intellum",
     "public": true
   }
 }

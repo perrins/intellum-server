@@ -3,9 +3,9 @@
 		{
 			"username":"intellum",
 			"password":"1234abc",
-			"loopback__model__name":"users",
 			"type"    : "admin",
-			"account" : "admin"
+			"account" : "admin",
+			"loopback__model__name":"users"
 		}
 	]
 }

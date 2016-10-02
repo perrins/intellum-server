@@ -8,7 +8,7 @@
 			"long" :  123,
 			"lat" : 345,
 			"type" : "commerical",
-			"share" : false.
+			"share" : false,
 			"comment" : "This is the head office of iNtellum and this place manages the faciliites",
 			"address": {
 					"street": "Congress Avenue",
@@ -26,7 +26,7 @@
 			"long" :  223,
 			"lat" : 645,
 			"type" : "home",
-			"share" : true.
+			"share" : true,
 			"comment" : "This is my home residence",
 			"address": {
 				"street": "10701 Mourning Dove Drive",
@@ -47,52 +47,51 @@
 
 		{
 			"name":"LDRV-CSB-PC2-0350",
-			"guid" : "100",
-			"mid" : "1234",
+			"gid" : "100",
+			"did" : "1234",
 			"device" : "guid",
 			"type" : "1000",
 			"dhigh": 40,
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"mdevice"
+			"loopback__model__name":"devices"
 		},
 		{
 			"name":"LDRV-CSB-PC2-0360",
-			"guid" : "100",
-			"mid" : "1234",
+			"gid" : "100",
+			"did" : "1234",
 			"device" : "guid",
 			"type" : "1000",
 			"dhigh": 40,
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"mdevice"
+			"loopback__model__name":"devices"
 		},
 		{
 			"name":"LDRV-CSB-PC2-0370",
-			"guid" : "100",
-			"mid" : "1234",
+			"gid" : "100",
+			"did" : "1234",
 			"device" : "guid",
 			"type" : "1000",
 			"dhigh": 40,
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"mdevice"
+			"loopback__model__name":"devices"
 		},
 		{
 			"name":"LDRV-CSB-PC2-0370",
-			"guid" : "100",
-			"mid" : "1234",
+			"gid" : "100",
+			"did" : "1234",
 			"device" : "guid",
 			"type" : "1000",
 			"dhigh": 40,
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"mdevice"
+			"loopback__model__name":"devices"
 		}
-
 	]
 }
