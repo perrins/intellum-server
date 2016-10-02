@@ -1,9 +1,24 @@
 {
-  "Cloudant": {
+  "Intellum": {
     "database": "intellum",
     "username": "6163d225-2362-46ba-8608-c0c58cac2509-bluemix",
     "password": "93cd9a5054e980352e3cb2ec0a50346052e6fca0a48b04cf33689d72b26adcbb",
-    "name": "Cloudant",
+    "name": "Intellum",
+    "connector": "cloudant"
+  },
+  "Devices": {
+    "database": "devices",
+    "username": "6163d225-2362-46ba-8608-c0c58cac2509-bluemix",
+    "password": "93cd9a5054e980352e3cb2ec0a50346052e6fca0a48b04cf33689d72b26adcbb",
+    "name": "Devices",
+    "connector": "cloudant"
+  },
+  "Users": {
+    "database": "users",
+    "username": "6163d225-2362-46ba-8608-c0c58cac2509-bluemix",
+    "password": "93cd9a5054e980352e3cb2ec0a50346052e6fca0a48b04cf33689d72b26adcbb",
+    "name": "Users",
     "connector": "cloudant"
   }
+
 }
