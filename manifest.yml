@@ -2,7 +2,7 @@
   path: "."
   description: "iNtellum Server"
   memory: "512M"
-  instances: 2
+  instances: 1
   domain: "mybluemix.net"
   name: "intellum"
   host: "intellum"

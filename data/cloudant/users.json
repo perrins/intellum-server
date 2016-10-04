@@ -5,7 +5,8 @@
 			"password":"1234abc",
 			"type"    : "admin",
 			"account" : "admin",
-			"loopback__model__name":"users"
+			"uid"     : "10",
+			"loopback__model__name":"Users"
 		}
 	]
 }

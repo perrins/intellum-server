@@ -7,10 +7,10 @@
     "validateUpsert": true
   },
   "properties": {
-    "username": {
+    "account": {
       "type": "string",
       "required": false,
-      "description": "User Name"
+      "description": "Account management"
     },
     "password": {
       "type": "string",
@@ -22,10 +22,18 @@
       "required": false,
       "description": "Account type"
     },
-    "account": {
+    "uid": {
+      "type": "string",
+      "id": false,
+      "required": false,
+      "index": false,
+      "description": "User ID unique id for the user or group users"
+    },
+    "username": {
       "type": "string",
       "required": false,
-      "description": "Account management"
+      "index": true,
+      "description": "User Name"
     }
   },
   "validations": [],

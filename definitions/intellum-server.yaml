@@ -1478,8 +1478,8 @@ paths:
 definitions:
   Users:
     properties:
-      username:
-        description: User Name
+      account:
+        description: Account management
         type: string
       password:
         description: Password
@@ -1487,8 +1487,11 @@ definitions:
       type:
         description: Account type
         type: string
-      account:
-        description: Account management
+      uid:
+        description: User ID unique id for the user or group users
+        type: string
+      username:
+        description: User Name
         type: string
       id:
         type: string
@@ -1518,8 +1521,15 @@ definitions:
         type: boolean
       type:
         type: string
+      uid:
+        type: string
       id:
         type: string
+    required:
+      - description
+      - name
+      - type
+      - uid
     additionalProperties: false
   Groups:
     properties:

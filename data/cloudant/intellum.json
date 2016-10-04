@@ -15,7 +15,7 @@
 					"city" : "Austin",
 					"zipcode" : "78750"
 			},
-			"loopback__model__name":"places"
+			"loopback__model__name":"Places"
 		},
 
 		{
@@ -33,7 +33,7 @@
 				"city" : "Austin",
 				"zipcode" : "78750"
 			},
-			"loopback__model__name":"places"
+			"loopback__model__name":"Places"
 		},
 
 		{
@@ -42,7 +42,7 @@
 			"gid" : "100",
 			"pid" : "10",
 			"devices" : 12,
-			"loopback__model__name":"groups"
+			"loopback__model__name":"Groups"
 		},
 
 		{
@@ -55,7 +55,7 @@
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"devices"
+			"loopback__model__name":"Devices"
 		},
 		{
 			"name":"LDRV-CSB-PC2-0360",
@@ -67,7 +67,7 @@
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"devices"
+			"loopback__model__name":"Devices"
 		},
 		{
 			"name":"LDRV-CSB-PC2-0370",
@@ -79,7 +79,7 @@
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"devices"
+			"loopback__model__name":"Devices"
 		},
 		{
 			"name":"LDRV-CSB-PC2-0370",
@@ -91,7 +91,7 @@
 			"dlow" : 23,
 			"mode" : 1,
 			"colour" : 23423,
-			"loopback__model__name":"devices"
+			"loopback__model__name":"Devices"
 		}
 	]
 }

@@ -22,7 +22,7 @@
 			"vendor" : "eulum",
 			"icon" : "box",
 			"thumbnail":"box",
-			"loopback__model__name":"devices"
+			"loopback__model__name":"Products"
 		},
 		{
 			"did" : "LDRV-CSB-PC2-0370",
@@ -34,7 +34,7 @@
 			"vendor" : "eulum",
 			"icon" : "box",
 			"thumbnail":"box",
-			"loopback__model__name":"devices"
+			"loopback__model__name":"Products"
 		},
 		{
 			"did" : "LDRV-CSB-PC2-0380",
@@ -46,7 +46,7 @@
 			"vendor" : "eulum",
 			"icon" : "box",
 			"thumbnail":"box",
-			"loopback__model__name":"devices"
+			"loopback__model__name":"Products"
 		}
 
 	]
